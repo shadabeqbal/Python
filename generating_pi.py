@@ -20,9 +20,6 @@ for k in range(n,0,-14):
 		i-=1
 		if i ==0:
 			break
-		
 		d*=i
 	print("%.4d"%(c+d/10000),end=" ")
-	
-	
 	c=d%10000
